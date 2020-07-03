@@ -1,0 +1,64 @@
+.hero, 
+.heroAbout,
+.heroPortfolio,
+.heroServices, 
+.heroContact {
+    height: 100vh;
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10vw;
+    color: #fff;
+
+    h1 {
+        position: relative;
+        font-size: 4rem;
+        text-transform: uppercase;
+        text-align: center;
+        background: rgba(0,0,0, 0.6);
+        padding: 2rem;
+        border-radius: 0 20px;
+
+        &::before, &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 50%;
+        }
+        &::before {
+            right: 0;
+            border-bottom: 6px solid $theme-color;
+        }
+        &::after {
+            left: 0;
+            border-top: 6px solid $theme-color;
+        }
+    }
+}
+
+.hero {
+    background: url('../img/blank-canvas.jpg') no-repeat bottom center;
+    background-size: cover;    
+}
+
+.heroAbout {
+    background: url('../img/about.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.heroPortfolio {
+    background: url('../img/portfolio.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.heroServices {
+    background: url('../img/services.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+.heroContact {
+    background: url('../img/contact.jpg') no-repeat top center;
+    background-size: cover;
+}

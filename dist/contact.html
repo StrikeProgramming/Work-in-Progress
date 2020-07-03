@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+<script src="https://kit.fontawesome.com/0b93e2570e.js" crossorigin="anonymous"></script>    
+<title>Practice</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="index.html"><span class="strike">Strike</span><br>Programming</a>
+        </div>
+
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="menu-icon__line"></span>
+        </label>
+
+        <ul class="nav-links">
+            <li class="nav-link">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-link">
+                <a href="about.html">About</a>
+            </li>
+            <li class="nav-link">
+                <a href="#services.html">Services</a>
+            </li>
+            <li class="nav-link">
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-link">
+                <a href="#" class="current">Contact</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="heroContact">
+        <h1>Contact</h1>
+    </div>
+
+    <div class="contact-form">
+        <h1>Contact Us</h1>
+        <p>If you want a great looking website at an affordable price contact us now and we will reply within 2 working days!</p>
+
+        <form id="contact-form" method="post" action="contact-form-handler.php">
+            <input name="name" type="text" placeholder="Name" required>
+            <input name="email" type="text" placeholder="Email" required>
+            <textarea class="scrollTextBox" name="message" placeholder="Message" required></textarea>       
+        </form>
+        <button type="submit">Get in Touch</button>
+    </div> 
+    
+    <footer>
+        Designed / Developed by <span>Strike</span> Programming | Copyright &copy 2020
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

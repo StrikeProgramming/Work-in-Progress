@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Practice</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="index.html"><span class="strike">Strike</span><br>Programming</a>
+        </div>
+
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="menu-icon__line"></span>
+        </label>
+
+        <ul class="nav-links">
+            <li class="nav-link">
+                <a href="#" class="current">Home</a>
+            </li>
+            <li class="nav-link">
+                <a href="about.html">About</a>
+            </li>
+            <li class="nav-link">
+                <a href="services.html">Services</a>
+            </li>
+            <li class="nav-link">
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-link">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="hero">
+        <h1>Affordable, Responsive Web Design</h1>
+    </div>
+
+     <main id="main">
+        <section id="section-a" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">Web & Application Development</h2>
+                <div class="content-text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem id asperiores aperiam
+                    repellat, dolorum libero praesentium enim eaque, rem explicabo facere iusto quasi sint eligendi
+                    debitis consequuntur dolorem alias error optio suscipit voluptatem quam! Sequi voluptatibus impedit
+                    autem nemo dignissimos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-b" class="grid">
+            <ul>
+                <li>
+                    <div class="card">
+                        <img src="img/section-b-img.jpg" alt="">
+                        <div class="card-content">
+                            <h3 class="card-title">Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos culpa quidem aut repellendus
+                                exercitationem est in voluptatum optio expedita iste?</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="img/section-b-img-2.jpg" alt="">
+                        <div class="card-content">
+                            <h3 class="card-title">Mobile Applications</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos culpa quidem aut repellendus
+                                exercitationem est in voluptatum optio expedita iste?</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="img/section-b-img-3.jpg" alt="">
+                        <div class="card-content">
+                            <h3 class="card-title">Tech Marketing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos culpa quidem aut repellendus
+                                exercitationem est in voluptatum optio expedita iste?</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+      
+    <div class="contact-form">
+        <h1>Contact Us</h1>
+        <p>If you want a great looking website at an affordable price contact us now and we will reply within 2 working days!</p>
+
+        <form id="contact-form" method="post" action="contact-form-handler.php">
+            <input name="name" type="text" placeholder="Name" required>
+            <input name="email" type="text" placeholder="Email" required>
+            <textarea class="scrollTextBox" name="message" placeholder="Message" required></textarea>       
+        </form>
+        <button type="submit">Get in Touch</button>
+    </div>  
+    
+    <footer>
+        Designed / Developed by <span>Strike</span> Programming | Copyright &copy 2020
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
